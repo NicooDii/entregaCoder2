@@ -1,143 +1,167 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.inicio{
-    background-image: url(imagenes/loginCP.jpg);
-    height: 100%;
-    background-size: cover;
+.inicio {
+  background-image: url(imagenes/loginCP.jpg);
+  height: 100%;
+  background-size: cover;
 }
-.navbar{
+
+.navbar {
+  background-color: rgb(183, 11, 0);
+}
+
+.navbar aside {
+  font-size: 30px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: #2A4E89;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.container-fluid {
+  margin-top: 200px;
+  background-color: rgba(183, 11, 0, 0.5);
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  background-color: #2A4E89;
+  border-color: white;
+  color: white;
+}
+
+
+
+.niveles {
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(183, 11, 0, 0.5);
+}
+
+.card {
+  background-color: rgba(183, 11, 0, 0.5);
+  color: white;
+}
+
+.card:hover{
     background-color: rgba(183, 11, 0);
+
+    -webkit-animation: 1s bote 1;
+}
+@-webkit-keyframes bote{
+    20%, 50%, 80%{
+        -webkit-transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-30px);
+    }
+    65%{
+        -webkit-transform: translateY(-15px);
+    }
 }
 
-.navbar aside{
-    font-size: 30px;
+.titleStarter {
+  color: white;
 }
 
-.nav-link{
-    color: white !important;
+.titleFuncional {
+  color: #2ea2cc;
 }
 
-.nav-link:hover{
-    background-color: #2A4E89;
+.titleFitness {
+  color: #a46497;
 }
 
-.fa-bars{
-    color: white;
+.titleAdvanced {
+  color: rgb(34, 2, 2);
 }
 
-.container-fluid{
-    margin-top: 200px;
-    background-color: rgba(183, 11, 0, 0.5);
-    text-align: center;
-    padding: 50px;
-    font-size: 20px;
-    color: white;
-    font-family:'Poppins', sans-serif;
+footer {
+  margin-top: 300px;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(183, 11, 0);
+  font-family: "Poppins", sans-serif;
 }
 
-.btn{
-    background-color: #2A4E89;
-    border-color: white;
-    color:white;
+.redes a {
+  color: #fff;
+  letter-spacing: 30px;
+  font-size: 20px;
 }
 
-.niveles{
-    margin-top: 200px;
-    text-align: center;
-    color:white;
-    font-family:'Poppins', sans-serif;
-    background-color: rgba(183, 11, 0, 0.5);
+.redes a:hover {
+  color: #2e518b;
 }
 
-.card{
-    background-color: rgba(183, 11, 0, 0.5);
-    color: white;
+.inicioSesion {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
 }
 
-.titleStarter{
-    color: white;
+.registro {
+  height: 1000px;
+  width: 600px;
+  border-radius: 10px;
 }
 
-.titleFuncional{
-    color: #2ea2cc;
+h4 {
+  margin-top: 20px;
 }
 
-.titleFitness{
-    color:#a46497
+.clases {
+  margin-top: 200px;
+  background-color: rgba(183, 11, 0, 0.5);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
 }
 
-.titleAdvanced{
-    color:rgb(34, 2, 2);
+.inscripcionH2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
 }
 
-footer{
-    margin-top: 300px;
-    padding: 15px;
-    text-align: center;
-    font-size: 20px;
-    color:#fff;
-    background-color: rgba(183, 11, 0);
-    font-family: 'Poppins', sans-serif;
-    
+.table {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
-.redes a{
-    color:#fff;
-    letter-spacing: 30px;
-    font-size: 20px;
+.tr-fila:hover {
+  color: white;
+  text-align: center;
 }
 
-.redes a:hover{
-    color: #2e518b;
+.registroH2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
 }
 
-.inicioSesion{
-    height: 400px;
-    width: 400px;
-    border-radius: 10px;
-}
 
-.registro{
-    height: 1000px;
-    width: 600px;
-    border-radius: 10px;
-}
 
-h4{
-    margin-top:20px
-}
 
-.clases{
-    margin-top:200px;
-    background-color:rgba(183, 11, 0,0.5);
-    color:white;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 10px;
-}
-
-.inscripcionH2{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 50px;
-}
-
-.table{
-    color:white;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
-
-.tr-fila:hover{
-    color:white;
-    text-align: center;
-}
-
-.registroH2{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 50px;
-}
+/*# sourceMappingURL=estilosBT.css.map */
